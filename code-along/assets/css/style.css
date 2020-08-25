@@ -1,0 +1,389 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav img {
+	width: 10rem;
+}
+
+.navbar {
+	z-index: 500;
+	background-color: white;
+	padding: 25px;
+}
+
+.navbar .demo-button {
+	background-color: #48276E;
+	outline: none;
+	border: none;
+	border-radius: 30px;
+}
+
+.navbar .demo-button:hover {
+	background-color: yellow;
+	color: #48276E;
+}
+
+nav .dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.navbar ul a:hover {
+	background-color: yellow;
+	border-radius: 20px;
+}
+
+.navbar ul a {
+	font-weight: bold;
+	font-size: 20px;
+	transition: .25s ease-in-out;
+	text-decoration: none;
+	color: #48276E;
+}
+
+#hero .container-fluid {
+	background-color: #48276E;
+	height: 70vh;
+	width: 93vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+}
+
+#hero .container-fluid h1 {
+	color: white;
+	margin: 1rem;
+	font-size: 4rem;
+	line-height: .85;
+}
+
+#hero .container-fluid h1 span{
+	display: block;
+}
+
+#hero .container-fluid h1 span:last-child {
+	color: #FFFF06;
+}
+
+#hero .container-fluid img {
+	width: 38rem;
+}
+
+#hero .container-fluid #boy {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#hero .container-fluid #lady {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+} 
+
+#hero .container-fluid .buttons {
+	margin-top: 3.25rem;
+}
+
+#hero .container-fluid .buttons .btn {
+	margin: 0 1rem;
+	padding: 1.2rem 4.8rem;
+	border-radius: 50px;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+#hero .container-fluid .buttons a:first-child {
+	color: #48276e; 
+	background-color: #FFFF06;
+	border: 2px solid #48276e;
+}
+
+#hero .container-fluid .buttons a:last-child {
+	background-color: #48276e; 
+	color: #FFF;
+	border: 2px solid #FFFF06;
+}
+
+#hero .container-fluid .buttons a:first-child:hover {
+	background-color: #48276e;
+	color: #FFFF06;
+	border: 2px solid #FFFF06;
+}
+
+#hero .container-fluid .buttons a:last-child:hover {
+	background-color: #FFFF06;
+	color: #48276e;
+	border: 2px solid #FFFF06;
+}
+
+.intro {
+	padding: 5.5rem;
+}
+
+.intro p {
+	font-size: 2.5rem;
+	text-align: center;
+	line-height: 1.35;
+	color: #48276e;
+}
+
+.contactless .container {
+	background: #FFF12E;
+	padding: 5rem; 
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+.contactless .btn {
+	color: white; 
+	background-color: #48276E;
+	border: 2px solid #48276e;
+	border-radius: 50px;
+	padding: 10px 25px;
+}
+
+.contactless .btn:hover {
+	color: #48276e;
+	background-color: #FFFF06;
+	border: none;
+}
+
+.contactless h5 {
+	font-family: Anton;
+	font-size: 4rem;
+	color: #48276E;
+}
+
+.contactless p {
+	font-size: 1.25rem;
+	color: #48276e;
+}
+
+.offerings .phone {
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+	height: 325px;
+}
+
+.offerings .pink-girl {
+	height: 450px;
+	object-fit: cover;
+}
+
+.carousel-inner .carousel-item-active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+	display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+	transform: translateX(16.66%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+	transform: translateX(-16.66%);
+}
+
+.carousel-inner, .carousel-item-right,
+.carousel-inner, .carousel-item-left {
+	transform: translateX(0);
+}
+
+.clients img {
+	display: block;
+}
+
+.articles {
+	background-color: #F5F4F8;
+}
+
+.articles .img2 {
+	height: 15.2rem;
+}
+
+#know-more .container-fluid {
+	background-color: #48276E;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+}
+
+#know-more .container-fluid h1 {
+	color: white;
+	margin: 2rem;
+	font-size: 4rem;
+	font-family: Anton;
+}
+
+#know-more .container-fluid h1 span:last-child {
+	color: #FFFF06;
+}
+#know-more .container-fluid .buttons {
+	margin-top: 3.25rem;
+}
+#know-more .container-fluid .buttons .btn {
+	margin: 0 1rem;
+	padding: 1.2rem 4.8rem;
+	border-radius: 50px;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+#know-more .container-fluid .buttons a:first-child {
+	color: #48276e; 
+	background-color: #FFFF06;
+	border: 2px solid #48276e;
+}
+
+#know-more .container-fluid .buttons a:last-child {
+	background-color: #48276e; 
+	color: #FFF;
+	border: 2px solid #FFFF06;
+}
+
+#know-more .container-fluid .buttons a:first-child:hover {
+	background-color: #48276e;
+	color: #FFFF06;
+	border: 2px solid #FFFF06;
+}
+
+#know-more .container-fluid .buttons a:last-child:hover {
+	background-color: #FFFF06;
+	color: #48276e;
+	border: 2px solid #FFFF06;
+}
+
+.articles {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.card {
+	border: none;
+	border-radius: 0;
+	overflow: hidden;
+}
+
+.inner {
+	overflow: hidden;
+}
+
+.inner img {
+	transition: all 0.8s;
+	border-radius: 0;
+}
+
+.inner:hover img {
+	transform: scale(1.1); 
+}
+
+.card .box .caption {
+	background-color: rgb(72, 39, 110, 0.6); 
+	position: absolute;
+	bottom: 0;
+	opacity: 0;
+	transition: 0.6s ease-in-out;
+	z-index: 500;
+	color: white;
+	width: 100%;
+	height: 64.4%;
+	font-weight: bold;
+	display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 30px;
+    margin-bottom: 136px;
+    font-size: 1.25rem;
+
+}
+
+.card .box:hover .caption {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.click-collect button {
+	background-color: #FF157F;
+}
+
+.returns button {
+	background-color: #4BC0F8; 
+}
+
+.solutions button {
+	background-color: #6DC7B5;
+}
+
+.offerings button {
+	color: white;
+	border-radius: 30px; 
+	padding: 10px 50px;
+	border: none;
+}
+
+.offerings button:hover {
+	background-color: #48276E;
+	color: white;
+	transition: 0.25s;
+}
+
+.offerings {
+	overflow: hidden;
+}
+
+.offerings h2 {
+	font-family: Anton;
+	font-size: 4rem;
+	color: #48276E;
+}
+
+.offerings p {
+	font-size: 1.25rem;
+	color: #48276E;
+}
+
+.before-footer a {
+	text-decoration: none;
+	color: #48276e;
+}
+
+.before-footer h4 {
+	margin-bottom: 1rem;
+}
+
+.before-footer i {
+	margin-top: 30px; 
+	font-size: 1.23rem;
+	border-radius: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	color: #48276e;
+	background-color: #F5F4F8;
+	transition: .25s ease-in-out;
+}
+
+.before-footer i:hover {
+	color: #F5F4F8;
+	background-color: #48276e;
+	cursor: pointer;
+}
+
+.smol small {
+	margin: 0 30px;	
+}
